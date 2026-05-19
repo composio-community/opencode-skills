@@ -1,5 +1,9 @@
 <h1 align="center">OpenCode Skills</h1>
 
+
+<a href="https://dashboard.composio.dev/login?utm_source=Github&utm_medium=github&utm_campaign=2026-05&utm_content=Opencodeskills">
+<img width="1771" height="888" alt="Opencode logo" src="https://github.com/user-attachments/assets/93574152-4bc5-49fe-869e-7e6510394d74" />
+</a>
 <p align="center">
   A curated collection of practical skills for OpenCode and agentic coding workflows.
 </p>
