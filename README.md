@@ -1,17 +1,17 @@
-<h1 align="center">OpenCode Skills</h1>
+<h1 align="center"> OpenCode Skills</h1>
 
 <p align="center">
-  A curated collection of practical skills for OpenCode and agentic coding workflows.
+  A curated collection of practical skills for OpenCode.
 </p>
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
-  <img src="https://img.shields.io/badge/skills-27-blue" alt="Skill count" />
+  <img src="https://img.shields.io/badge/skills-54-blue" alt="Skill count" />
   <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome" />
   <img src="https://img.shields.io/badge/license-MIT-green" alt="MIT" />
 </p>
 
-OpenCode skills are reusable instruction bundles that teach an AI coding agent how to do a repeatable task: write tests first, package repo context, run browser QA, design frontends, automate SaaS tools, build Remotion videos, or operate Blender workflows.
+OpenCode skills are reusable instruction bundles that teach an AI coding agent how to do a repeatable task: design brand systems, synthesize research, manage inboxes, plan campaigns, qualify leads, write support replies, automate SaaS tools, build frontends, or create media workflows.
 
 Each skill lives in its own folder with a `SKILL.md` file containing metadata and execution guidance. OpenCode reads the metadata up front, then loads the full instructions only when the task matches the skill description.
 
@@ -67,10 +67,13 @@ For other workflows, copy any folder from `skills/` into the same OpenCode skill
 
 - [What Are OpenCode Skills?](#what-are-opencode-skills)
 - [Skills](#skills)
+  - [Design & Product](#design--product)
+  - [Marketing & Content](#marketing--content)
+  - [Sales, Support & Collaboration](#sales-support--collaboration)
+  - [Business Operations](#business-operations)
   - [Development & Code Tools](#development--code-tools)
   - [Planning & Agent Workflows](#planning--agent-workflows)
   - [Cloud, Apps & Systems](#cloud-apps--systems)
-  - [Business & Communication](#business--communication)
   - [Creative & Media](#creative--media)
   - [Skill Authoring & Maintenance](#skill-authoring--maintenance)
 - [Using Skills](#using-skills)
@@ -92,6 +95,48 @@ OpenCode discovers skills from skill directories and loads them progressively:
 The `description` is the trigger. Good descriptions say what the skill does and when the agent should use it.
 
 ## Skills
+
+### Design & Product
+
+- [brand-identity-system](skills/brand-identity-system/SKILL.md) - Create practical brand systems with positioning, voice, color, typography, visual rules, and usage examples.
+- [customer-journey-mapping](skills/customer-journey-mapping/SKILL.md) - Map lifecycle stages, touchpoints, friction, emotions, and opportunities across acquisition, onboarding, retention, and support.
+- [design-critique-review](skills/design-critique-review/SKILL.md) - Critique UI, hierarchy, spacing, accessibility, interaction states, and visual polish with concrete fixes.
+- [landing-page-copy-design](skills/landing-page-copy-design/SKILL.md) - Build conversion-focused landing pages with positioning, structure, proof, objections, and CTAs.
+- [product-requirements-writing](skills/product-requirements-writing/SKILL.md) - Turn product ideas into PRDs, feature specs, user stories, acceptance criteria, and launch scope.
+- [user-research-synthesis](skills/user-research-synthesis/SKILL.md) - Synthesize interviews, surveys, notes, and feedback into insights, jobs-to-be-done, opportunities, and recommendations.
+
+### Marketing & Content
+
+- [ad-creative-briefs](skills/ad-creative-briefs/SKILL.md) - Create paid creative briefs with audience, offer, hook, concept, visual direction, copy variants, and testing plan.
+- [claude-seo-workflows](skills/claude-seo-workflows/SKILL.md) - Run SEO research, content optimization, keyword strategy, technical SEO analysis, and search-focused content generation.
+- [competitive-positioning-research](skills/competitive-positioning-research/SKILL.md) - Compare competitors, positioning, pricing, proof, feature gaps, and defensible differentiation.
+- [content-calendar-planning](skills/content-calendar-planning/SKILL.md) - Plan editorial calendars across blog, social, email, video, and community channels with cadence and owners.
+- [marketing-skills-workflows](skills/marketing-skills-workflows/SKILL.md) - Perform marketing strategy, SEO audits, audience positioning, funnel analysis, and growth execution.
+- [newsletter-production](skills/newsletter-production/SKILL.md) - Produce newsletters with issue themes, curated links, editorial voice, subject lines, sections, and CTAs.
+- [seo-content-refresh](skills/seo-content-refresh/SKILL.md) - Refresh existing content for search intent, AI search, clarity, internal links, and conversion.
+- [social-media-campaign-builder](skills/social-media-campaign-builder/SKILL.md) - Create platform-native social campaigns with hooks, post sequences, creative briefs, CTAs, and engagement plans.
+
+### Sales, Support & Collaboration
+
+- [calendar-scheduling-assistant](skills/calendar-scheduling-assistant/SKILL.md) - Coordinate availability, agendas, reminders, and calendar updates through Composio CLI when app access is needed.
+- [community-management-replies](skills/community-management-replies/SKILL.md) - Draft community replies, moderation responses, announcements, and escalations for Slack, Discord, forums, and social channels.
+- [crm-pipeline-hygiene](skills/crm-pipeline-hygiene/SKILL.md) - Clean CRM pipelines, stale deals, missing fields, follow-ups, and next actions through Composio CLI.
+- [customer-feedback-analysis](skills/customer-feedback-analysis/SKILL.md) - Analyze reviews, surveys, tickets, calls, and community posts into themes, severity, opportunities, and roadmap inputs.
+- [customer-support-response](skills/customer-support-response/SKILL.md) - Draft support replies, classify tickets, identify policy answers, and escalate issues through connected support tools.
+- [email-inbox-triage](skills/email-inbox-triage/SKILL.md) - Triage inboxes, summarize threads, draft replies, label messages, and track follow-ups using Composio CLI.
+- [lead-qualification-enrichment](skills/lead-qualification-enrichment/SKILL.md) - Qualify and enrich leads using ICP criteria, buying signals, company research, and CRM context.
+- [meeting-notes-actions](skills/meeting-notes-actions/SKILL.md) - Turn meeting transcripts and rough notes into summaries, decisions, risks, and owner-tagged action items.
+- [sales-call-prep](skills/sales-call-prep/SKILL.md) - Prepare sales call briefs with account research, pain hypotheses, discovery questions, objections, and follow-up plan.
+
+### Business Operations
+
+- [hiring-candidate-screening](skills/hiring-candidate-screening/SKILL.md) - Screen candidates against role requirements, summarize resumes, draft interview questions, and prepare scorecards.
+- [invoice-expense-processing](skills/invoice-expense-processing/SKILL.md) - Extract, validate, categorize, and summarize invoices, receipts, expenses, and payment follow-ups.
+- [knowledge-base-maintenance](skills/knowledge-base-maintenance/SKILL.md) - Maintain Notion, Confluence, help center, or wiki content through audits, updates, consolidation, and app publishing.
+- [okr-planning-review](skills/okr-planning-review/SKILL.md) - Create and review OKRs, goals, metrics, initiatives, and operating reviews for teams or products.
+- [policy-sop-generator](skills/policy-sop-generator/SKILL.md) - Create policies, SOPs, playbooks, checklists, and operating procedures from rough notes or repeated workflows.
+- [powerpoint-generation](skills/powerpoint-generation/SKILL.md) - Generate professional PowerPoint presentations from rough notes, outlines, documents, or ideas.
+- [vendor-comparison-analysis](skills/vendor-comparison-analysis/SKILL.md) - Compare vendors, tools, agencies, or software options using requirements, pricing, risks, and recommendation criteria.
 
 ### Development & Code Tools
 
@@ -115,12 +160,6 @@ The `description` is the trigger. Good descriptions say what the skill does and 
 - [azure-messaging-workflows](skills/azure-messaging-workflows/SKILL.md) - Build scalable Azure messaging systems with queues, service buses, pub/sub, and event-driven patterns.
 - [azure-observability-workflows](skills/azure-observability-workflows/SKILL.md) - Implement Azure observability with logging, monitoring, tracing, metrics, dashboards, and diagnostics.
 - [composio-cli](skills/composio-cli/SKILL.md) - Operate external SaaS apps from the terminal via Composio CLI, including discovery, auth, tool schemas, execution, triggers, and cross-app automation.
-
-### Business & Communication
-
-- [claude-seo-workflows](skills/claude-seo-workflows/SKILL.md) - Run SEO research, content optimization, keyword strategy, technical SEO analysis, and search-focused content generation.
-- [marketing-skills-workflows](skills/marketing-skills-workflows/SKILL.md) - Perform marketing strategy, SEO audits, audience positioning, funnel analysis, and growth execution.
-- [powerpoint-generation](skills/powerpoint-generation/SKILL.md) - Generate professional PowerPoint presentations from rough notes, outlines, documents, or ideas.
 
 ### Creative & Media
 
