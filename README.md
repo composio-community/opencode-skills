@@ -136,6 +136,7 @@ The `description` is the trigger. Good descriptions say what the skill does and 
 - [remotion-creative-storytelling](skills/remotion-creative-storytelling/SKILL.md) - Develop concepts, hooks, story structure, and audience-focused narratives for Remotion videos.
 - [remotion-image-video-masking](skills/remotion-image-video-masking/SKILL.md) - Create layered Remotion masking effects with image/video masks, text occlusion, and frame-based animation.
 - [remotion-layout-debugging](skills/remotion-layout-debugging/SKILL.md) - Diagnose and fix layout instability, text jumping, resizing issues, and render inconsistency in Remotion.
+- [video-production-router](skills/video-production-router/SKILL.md) - Route and lock a video brief to generation, designed composition, supplied-footage editing, or a mixed end-to-end workflow.
 
 ### Skill Authoring & Maintenance
 
